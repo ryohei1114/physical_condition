@@ -1,0 +1,24 @@
+-# management_screenの画面
+
+.header
+  .header__center
+    = link_to "#", class: "header__center__link" do
+      Management screen
+  .header__left_btn
+    .header__left_btn__menu_btn
+      = link_to "#", class: "header__left_btn__menu_btn__icon" do
+        = icon('fas', 'bars')
+  
+
+.main
+  .main__tweets_head
+    = @tweets.name 
+    = @tweets.id
+      
+      
+
+
+
+.footer
+
+

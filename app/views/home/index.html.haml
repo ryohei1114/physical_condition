@@ -1,0 +1,28 @@
+-# これはホーム画面です
+
+.header
+  .header__right_btn
+    .header__right_btn__sign_up_btn
+      = link_to new_user_registration_path, class: "header__right_btn__sign_up_btn__left" do
+        Sign up
+    .header__right_btn__log_in_btn
+      = link_to new_user_session_path, class: "header__right_btn__log_in_btn__right" do
+        Sign in
+  .header__left_btn
+    .header__left_btn__menu_btn
+      = link_to "#", class: "header__left_btn__menu_btn__icon" do
+        = icon('fas', 'bars')
+
+.main
+  .main__app_name
+    physical condition
+  .main__app_text_one
+    大切な社員を守るオーナー様、店長様専用の社員出勤確認用アプリ。
+    
+    
+
+
+.footer
+
+
+

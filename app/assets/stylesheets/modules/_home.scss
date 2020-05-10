@@ -1,0 +1,85 @@
+body,html {
+  height: 100%;
+  background-color: #f5f5f2;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+
+
+.header{
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  justify-content: space-between;
+  position: fixed;
+  font-family: Times New Roman;
+  &__right_btn{
+    display: flex;
+    &__sign_up_btn{
+      padding-left: 30px;
+      display: flex;
+      align-items: center;
+      &__left{
+        text-decoration: none;
+        color: black;
+      }
+    }
+    &__log_in_btn{
+      padding-left: 40px;
+      display: flex;
+      align-items: center;
+      &__right{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  &__center{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    &__link{
+      text-decoration: none;
+      color: black;
+      
+    }
+  }
+  &__left_btn{
+    display: flex;
+    align-items: center;
+    &__menu_btn{
+      padding-right: 40px;
+      &__icon{
+        color: black;
+      }
+    }
+  }
+}
+
+.main{
+  height: 2400px;
+  padding-top: 80px;
+  &__app_name{
+    padding: 40px 100px;
+    height: 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Times New Roman;
+  }
+  &__app_text_one{
+    font-family: serif;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+}
+
+.footer{
+  background-color: white;
+  height: 350px;
+}
